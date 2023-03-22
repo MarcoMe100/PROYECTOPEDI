@@ -1,0 +1,60 @@
+.seleccionar-areas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #111;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .seleccionar-areas h2 {
+    margin-bottom: 10px;
+  }
+  
+  .seleccionar-areas button {
+    margin: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 20px;
+    font-size: 20px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.3s ease;
+  }
+  
+  .seleccionar-areas button:hover {
+    background-color: #555;
+  }
+  
+  .seleccionar-areas button::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 0;
+    height: 0;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.3);
+    transition: all 0.3s ease;
+  }
+  
+  .seleccionar-areas button:hover::before {
+    width: 200%;
+    height: 200%;
+  }
+  
+  
+  
+   
+  
+  
+  
+  
+  
+  
+  
